@@ -8,3 +8,4 @@
 - 提交者信息请见 [submitter_information.md](./submitter_information.md)
 - ResNet50V1.5的测试报告及日志等请见 [ResNet50V1.5](./resnet50/)
 - Bert的测试报告及日志等请见 [Bert](./bert/)
+- TSM的测试报告及日志等请见 [TSM](./tsm/)
