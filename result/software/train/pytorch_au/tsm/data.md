@@ -20,8 +20,9 @@ Kinetics-400是视频领域benchmark常用数据集，详细介绍可以参考�
 
 |类别 | 数据条数  | list文件 |
 | :------: | :----------: | :----: |
-|训练集 | 234619  |  |
-|验证集 | 19761 |  |
+|训练集 | 234619  |  [train.list](https://videotag.bj.bcebos.com/PaddleVideo/Data/Kinetic400/train.list)|
+|验证集 | 19761 |  [val.list](https://videotag.bj.bcebos.com/PaddleVideo/Data/Kinetic400/val.list)|
+
 
 - 由于部分视频原始链接失效，数据有部分缺失，全部文件大概需要135G左右的存储空间，PaddleVideo使用的也是这份数据。
 
@@ -36,3 +37,8 @@ python extract_rawframes.py ./videos/ ./rawframes/ --level 2 --ext mp4
 ```
 
 视频文件frames提取完成后，会存储在指定的`./rawframes`路径下，大小约为2T左右。
+
+|类别 | 数据条数  | list文件 |
+| :------: | :----------: | :----: |
+|训练集 | 234619  |  [train_frames.list](https://videotag.bj.bcebos.com/PaddleVideo/Data/Kinetic400/train_frames.list)|
+|验证集 | 19761 |  [val_frames.list](https://videotag.bj.bcebos.com/PaddleVideo/Data/Kinetic400/val_frames.list)|
