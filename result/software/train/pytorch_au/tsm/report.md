@@ -1,7 +1,7 @@
 
 # PyTorch TSM 性能测试
 
-此处给出了Pytorch实现的[TSM模型](https://github.com/mit-han-lab/temporal-shift-module)， 任务的详细复现流程，包括环境搭建、复现脚本、测试结果和测试日志等。
+[此处](https://github.com/mit-han-lab/temporal-shift-module)给出了Pytorch实现的TSM模型，任务的详细复现流程，包括环境搭建、复现脚本、测试结果和测试日志等。
 
 <!-- omit in toc -->
 ## 目录
