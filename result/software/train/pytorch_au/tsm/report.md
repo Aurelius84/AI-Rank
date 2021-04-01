@@ -77,7 +77,7 @@ python3.7 main.py kinetics RGB \
 - 程序会自动下载ImageNet预训练模型作为pre-train。
 
 ## 三、日志数据
-- [单卡Time2Train及吞吐测试日志**TODO**]()
-- [单卡准确率测试](./logs/1gpu_accuracy.log)(此日志训练使用p40显卡)
+- [单卡Time2Train及吞吐测试日志](./logs/1gpu_ips.log)(此日志使用ucf-101数据集训练得到，不同数据集性能表现无差异)
+- [单卡准确率测试](./logs/8gpu_acc.log)(此日志使用p40显卡训练得到，其中速度无需参考)
 
-通过以上日志分析，PyTorch经过50个epoch的训练，训练精度（即`val.top1`)达到71.16 %，训练吞吐（即`train.compute_ips`）达到**TODO**img/s。
+通过以上日志分析，PyTorch经过50个epoch的训练，训练精度（即`val.top1`)达到71.16 %，训练吞吐（即`train.compute_ips`）达到30.53img/s。
