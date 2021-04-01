@@ -14,8 +14,6 @@
 
 ## 一、环境搭建
 
-*****TODO*****
-
 我们使用paddle提供的docker，在其中安装pytorch，并遵循[TMS pytorch实现](https://github.com/mit-han-lab/temporal-shift-module)配置环境，主要过程如下:
 
 
