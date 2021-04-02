@@ -76,6 +76,8 @@ python3.7 main.py kinetics RGB \
 
 - 程序会自动下载ImageNet预训练模型作为pre-train。
 
+- 模型在每个epoch训练完成后进行精度测试，最终精度以日志中`Best`对应的精度为准。
+
 ## 三、日志数据
 - [单卡Time2Train及吞吐测试日志](./logs/1gpu_ips.log)(此日志使用ucf-101数据集训练得到，不同数据集性能表现无差异)
 - [单卡准确率测试](./logs/8gpu_acc.log)(此日志使用p40显卡训练得到，其中速度无需参考)
